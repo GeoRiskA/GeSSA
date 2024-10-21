@@ -14,7 +14,7 @@ There are two versions of GeSSA:
 - **GeSSA:** Regular version of the software with options to scan paper, glass plate and film media.
 - **GeSSA Lite:** simplified version of the software solely dedicated to paper photos. This version is compatible with scanners with less scanning options, such as A3 scanners.
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 
 -------
 
@@ -40,7 +40,7 @@ When using GeSSA or part of it, please cite the following references in you work
 
 In progress...  
 
-## HOW TO RUN GAPPS  
+## HOW TO RUN GeSSA  
 
 In progress ...  
 
