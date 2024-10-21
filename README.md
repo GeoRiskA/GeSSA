@@ -1,5 +1,8 @@
+<div align="center">
+	<img src="https://github.com/GeoRiskA/GeSSA/blob/main/GeSSA_logo_GUI.png">
+</div> 
 
-# <h3 align="center">
+<h3 align="center">
 <i>Speed-up airphoto digitising by parallelising flatbed photo-scanners!</i>
 </h3>
 
