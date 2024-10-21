@@ -18,14 +18,12 @@ There are two versions of GeSSA:
 
 -------
 
-***Software Management and Coordination:***  
+***Software Creation, Management and Coordination:***  
 - Prof. Dr. Benoît SMETS – Royal Museum for Central Africa (RMCA) / Vrije Universiteit Brussel (VUB) – BE  
 
 ***Contributors:***. 
-- Prof. Dr. Benoît SMETS – Royal Museum for Central Africa (RMCA) / Vrije Universiteit Brussel (VUB) – BE  
-  > *Main tools, Graphical User Interface*   
 - Mr. Augustin COSSON - Former student of ENSG-Géomatique – FR  
-  > *Previous Python code that led to the first version of GeSSA*  
+  > *Previous Python code that led to the creation of the first version of GeSSA*  
 - Mr. Toufik MOUSSOUNI — Royal Museum for Central Africa (RMCA) — BE
   > *Main beta tester and user of GeSSA, at the RMCA*
 
