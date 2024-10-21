@@ -1,2 +1,1 @@
-# GeSSA
-GeoRiskA Scanning Software for Airphotos
+# GeSSA – GeoRiskA Scanning Software for Airphotos
