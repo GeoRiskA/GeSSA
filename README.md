@@ -25,8 +25,10 @@ There are two versions of GeSSA:
 - Prof. Dr. Benoît SMETS – Royal Museum for Central Africa (RMCA) / Vrije Universiteit Brussel (VUB) – BE  
 
 ***Contributors:***. 
-- Mr. Augustin COSSON - Former student of ENSG-Géomatique – FR  
-  > *Previous Python code that led to the creation of the first version of GeSSA*  
+- Mr. Augustin COSSON – Former student of ENSG-Géomatique – FR  
+  > *Previous Python code that led to the creation of the first version of GeSSA*
+- Dr. Antoine DILLE – Royal Museum for Central Africa (RMCA) — BE
+  > *First version of the Tkinter interface*
 - Mr. Toufik MOUSSOUNI — Royal Museum for Central Africa (RMCA) — BE
   > *Main beta tester and user of GeSSA, at the RMCA*
 
@@ -84,4 +86,4 @@ Before any scanning session, **it is highly recommended to warmup the scanners**
 
 ----------------
 
-*&copy; Royal Museum for Central Africa / Vrije Universiteit Brussel – 2023-2024*
+*&copy; Royal Museum for Central Africa / Vrije Universiteit Brussel – 2021-2024*
