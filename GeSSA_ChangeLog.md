@@ -1,7 +1,7 @@
 # CHANGE LOG
 ## GeSSA - GeoRiskA Scanning Software for Airphotos
 
-**Last Update = 2/02/2024**  
+**Last Update = 29/02/2024**  
 
 ### IMPORTANT NOTICE
 The current version(s) of GeSSA should still be considered as beta version(s), as no extensive use or application outside of the AfricaMuseum has been performed.   
