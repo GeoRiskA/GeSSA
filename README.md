@@ -36,7 +36,7 @@ There are two versions of GeSSA:
 
 When using GeSSA or part of it, please cite the following references in you work:  
 
-- ***The repository:*** Smets, B., 2024.  GeSSA — GeoRiskA Scanning Software for Airphotos. Zenodo XXXX
+- ***The repository:*** Smets, B., 2024.  GeSSA — GeoRiskA Scanning Software for Airphotos. DOI: https://doi.org/10.5281/zenodo.14002941
 - ***The publication:*** *In preparation*
 
 --------------
