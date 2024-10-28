@@ -49,13 +49,14 @@ GeSSA is a single Python file. To use it we highly recommend that you create a v
 4) Activate your new virtual environment: `conda activate scan`
 5) Install the required dependencies: `conda install libusb1 python-tk`
 6) Download the GeSSA script you would like to use (i.e., "GeSSA" or "GeSSA_lite") and store it on your computer wherever you like.
-7) Shutdown you computer, and connect via USB all your scanners to the computer.
-8) Turn on the scanners (all scanners must be the same model from the same brand). Once (and only once) they are all turned on, boot your computer.
-9) Open the GeSSA Python file in a text editor and do the following modifications:
+7) Download the Tkinter theme for GeSSA [here](https://github.com/rdbende/Sun-Valley-ttk-theme), and save it in the folder where you stored GeSSA.
+8) Shutdown you computer, and connect via USB all your scanners to the computer.
+9) Turn on the scanners (all scanners must be the same model from the same brand). Once (and only once) they are all turned on, boot your computer.
+10) Open the GeSSA Python file in a text editor and do the following modifications:
    - Adapt the shebang (first line) to your virtual environment (e.g., `#!/home/user/miniconda3/envs/scan/bin/python`)
    - Adapt the SETUP section of the script according to the procedure provided in the script
-10) Make GeSSA executable. In your terminal, run `sudo chmod +x path/to/your/script/GeSSA_v0.x.y.py` *(replace the path with the one of GeSSA script saved on your computer)*
-11) In a text editor, create a .Desktop file as a shortcut to launch the script directly from the desktop (see [this procedure](https://github.com/GeoRiskA/GeSSA/blob/main/Desktop_logo/Example_Desktop_shortcut.md))
+11) Make GeSSA executable. In your terminal, run `sudo chmod +x path/to/your/script/GeSSA_v0.x.y.py` *(replace the path with the one of GeSSA script saved on your computer)*
+12) In a text editor, create a .Desktop file as a shortcut to launch the script directly from the desktop (see [this procedure](https://github.com/GeoRiskA/GeSSA/blob/main/Desktop_logo/Example_Desktop_shortcut.md))
 
 
 ## HOW TO RUN GeSSA  
