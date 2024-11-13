@@ -8,8 +8,10 @@
 
 <br>
 
-*Version 0.1.6*  
-[![DOI](https://zenodo.org/badge/876131757.svg)](https://doi.org/10.5281/zenodo.14002941) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
+*Version 0.2.0*  
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14145222.svg)](https://doi.org/10.5281/zenodo.14145222) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 
 GeSSA is a software working on Linux computers allowing users to control several similar (i.e., same brand and model) flatbed scanners at the same time and perform parallelised scanning. This software has been developed with the unique idea of speeding-up the process of digitising paper-format historical aerial photographs to preserve their content and exploit them for scientific research.  
 
