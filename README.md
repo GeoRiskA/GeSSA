@@ -38,7 +38,7 @@ There are two versions of GeSSA:
 
 When using GeSSA or part of it, please cite the following references in you work:  
 
-- ***The repository:*** Smets, B., 2024.  GeSSA — GeoRiskA Scanning Software for Airphotos. DOI: https://doi.org/10.5281/zenodo.14002941
+- ***The repository:*** Smets, B., 2024.  GeSSA — GeoRiskA Scanning Software for Airphotos, Version 0.2.0. DOI: https://doi.org/10.5281/zenodo.14145222
 - ***The publication:*** *In preparation*
 
 --------------
@@ -52,39 +52,40 @@ GeSSA is a single Python file. To use it we highly recommend that you create a v
 3) Create a new "scan" environment: `conda create -n scan -c conda-forge python=3.12`
 4) Activate your new virtual environment: `conda activate scan`
 5) Install the required dependencies: `conda install libusb1 python-tk`
-6) Download the GeSSA script you would like to use (i.e., "GeSSA" or "GeSSA_lite") and store it on your computer wherever you like.
-7) Download the Tkinter theme for GeSSA [here](https://github.com/rdbende/Sun-Valley-ttk-theme), and save it in the folder where you stored GeSSA.
-8) Shutdown you computer, and connect via USB all your scanners to the computer.
-9) Turn on the scanners (all scanners must be the same model from the same brand). Once (and only once) they are all turned on, boot your computer.
-10) Open the GeSSA Python file in a text editor and do the following modifications:
-   - Adapt the shebang (first line) to your virtual environment (e.g., `#!/home/user/miniconda3/envs/scan/bin/python`)
-   - Adapt the SETUP section of the script according to the procedure provided in the script
-11) Make GeSSA executable. In your terminal, run `sudo chmod +x path/to/your/script/GeSSA_v0.x.y.py` *(replace the path with the one of GeSSA script saved on your computer)*
-12) In a text editor, create a .Desktop file as a shortcut to launch the script directly from the desktop (see [this procedure](https://github.com/GeoRiskA/GeSSA/blob/main/Desktop_logo/Example_Desktop_shortcut.md))
+6) Download the GeSSA script you would like to use (i.e., "GeSSA" or "GeSSA_lite") and "GeSSA_config.py", and store the files on your computer wherever you like. (You can alternatively download the entire repository
+7) Download the Tkinter theme for GeSSA [here](https://github.com/rdbende/Sun-Valley-ttk-theme), and save it in the folder where you stored GeSSA and GeSSA_config.
+8) Open the GeSSA Python file in a text editor and do the following modification:
+   - Adapt the shebang (first line) to your virtual environment (e.g., `#!/home/user/miniconda3/envs/scan/bin/python`)  
+10) Make GeSSA executable. In your terminal, run `sudo chmod +x path/to/your/script/GeSSA_v0.x.y.py` *(replace the path with the one of GeSSA script saved on your computer)*  
+11) In a text editor, create a .Desktop file as a shortcut to launch the script directly from the desktop (see [this procedure](https://github.com/GeoRiskA/GeSSA/blob/main/Desktop_logo/Example_Desktop_shortcut.md))  
+12) Shutdown you computer, and connect via USB all your scanners to the computer.  
+13) Turn on the scanners (all scanners must be the same model from the same brand). Once (and only once) they are all turned on, boot your computer.
+14) Open the *GeSSA_config.py* file in a text editor and do the following modification:
+   - Adapt the different variables according to your hardware configuration and your preferred scanning parameters  
 
 
 ## HOW TO RUN GeSSA  
 
 To launch GeSSA, you have two options:
 - You double-click on your .Desktop icon
-- You open a terminal and run `python3 /path/to/your/script/GeSSA_v016.py`*(Adapt the path and GeSSA script name according to your configuration)*   
+- You open a terminal and run `python3 /path/to/your/script/GeSSA_v020.py` *(Adapt the path and GeSSA script name according to your configuration)*   
 
 **BEFORE THE VERY FIRST SCANS WITH GeSSA:**  
 
-Now, GeSSA that is ready to work for the first time, we need to identify which scanners will be Scanner 1, Scanner 2, etc. As scanner manufacturers do not provide a unique ID to each scanner of the same model, it is necessary to run a first scan to distinguish them. The easiest way is to follow this manual procedure:  
+Once GeSSA is ready to work for the first time, we need to identify which scanners will be Scanner 1, Scanner 2, etc. As scanner manufacturers do not provide a unique ID to each scanner of the same model, it is necessary to run a first scan to distinguish them. The easiest way is to follow this manual procedure:  
 
 1) Switch on your scanners before booting the computer.  
 2) Boot the computer.  
-3) Place a sheet of paper in the scanner with the number you would like it to have.  
+3) Place a sheet of paper in the scanner with the number you would like the scanner to have.  
 4) Launch GeSSA.py and scan the sheets of paper.  
-5) Link the scanner number in GeSSA with the number on the sheet of paper.  
+5) Compare the scanner number in GeSSA with the number on the scanned image (e.g., write the numbers down on a sheet of paper).  
 6) Shutdown the computer and scanners.  
 7) Replug the USB cables in the appropriate ports to fit with the paper numbers.  
 8) Redo the steps 1) to 4) to check you did plug the USB cables in the corresponding ports.  
 
 **BEFORE THE FIRST SCANS OF THE DAY:**  
 
-Before any scanning session, **it is highly recommended to warmup the scanners**, eventhough manufacturers say otherwise. This is why a warmup button is available in GeSSA. This warmup will launch scans at low resolution several times, for all scanners, to be sure that the grayscale values in the scans remain identical between scans. The scans performed during warmup are momentarily saves on the computer. They are deleted at the end of each warmup scan.
+Before any scanning session, **it is highly recommended to warmup the scanners**, eventhough manufacturers say otherwise. This is why a warmup button is available in GeSSA. This warmup will launch scans at low resolution several times, for all scanners, to be sure that the grayscale values in the scans remain relatively identical between scans. The scans performed during warmup are momentarily saved on the computer. They are deleted at the end of each warmup scan.
 
 ----------------
 
