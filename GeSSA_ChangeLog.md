@@ -1,20 +1,24 @@
 # CHANGE LOG
 ## GeSSA - GeoRiskA Scanning Software for Airphotos
 
-**Last Update = 29/02/2024**  
+**Last Update = 13/11/2024**  
 
 ### IMPORTANT NOTICE
-The current version(s) of GeSSA should still be considered as beta version(s), as no extensive use or application outside of the AfricaMuseum has been performed.   
+The current version(s) of GeSSA should still be considered as beta version(s), as no extensive use or application outside the AfricaMuseum has been performed.   
 
 ### TO DO LIST
-- [x] Ensure that a terminal opens when GeSSA is launched.  --> "Terminal=true" in the .desktop file (29/02/2024)
-- [ ] Get the setup section out of the main Python script, to make changes easier for non-coders
-- [ ] Write down a detailed user guide including installation, use, and best practices  
-- [ ] Be more autonomous for the tkinter theme that is used. 
+- [ ] Write down a detailed user guide including installation, use, and best practices   
+- [ ] Be more autonomous for the tkinter theme that is used.  
   
 ---------------------
+### Version 0.2.0  (normal + lite versions) – 14/11/2024
+- [x] Get the setup/config section out of the main Python script and into a separate file.   
+
+### Version 0.1.7  (normal + lite versions) – 12/11/2024
+- [x] Add test/debugging option in setup section (warmup testing only)
 
 ### Version 0.1.6  (normal + lite versions) – 29/02/2024  
+- [x] Ensure that a terminal opens when GeSSA is launched.  --> "Terminal=true" in the .desktop file (29/02/2024)  
 - [x] Prevent overwriting of an image it already exists (even if already implemented)   
 - [x] Creation of a Lite version, without transparency option, developed specifically for EPSON A3 scanners (to avoid compatibility issues)  
 - [x] Removed unnecessary information in the text of the header   
