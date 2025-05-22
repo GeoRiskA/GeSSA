@@ -76,12 +76,12 @@ Once GeSSA is ready to work for the first time, we need to identify which scanne
 
 1) Switch on your scanners before booting the computer.  
 2) Boot the computer.  
-3) Place a sheet of paper in the scanner with the number you would like the scanner to have.  
+3) Place a sheet of paper in the scanner with the number you would like the scanner to have written on the paper.  
 4) Launch GeSSA.py and scan the sheets of paper.  
-5) Compare the scanner number in GeSSA with the number on the scanned image (e.g., write the numbers down on a sheet of paper).  
+5) Compare the scanner number in GeSSA with the number on the scanned image.  
 6) Shutdown the computer and scanners.  
 7) Replug the USB cables in the appropriate ports to fit with the paper numbers.  
-8) Redo the steps 1) to 4) to check you did plug the USB cables in the corresponding ports.  
+8) Redo the steps 1) to 4) to check you did plug the USB cables in the appropriate corresponding ports.  
 
 **BEFORE THE FIRST SCANS OF THE DAY:**  
 
